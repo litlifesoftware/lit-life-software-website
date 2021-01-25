@@ -1,0 +1,20 @@
+{
+  "short_name": "LitLife Software",
+  "name": "LitLifeSoftware",
+  "icons": [
+    {
+      "src": "lit_life_favicon_192px-01.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "lit_life_favicon_512px-01.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
