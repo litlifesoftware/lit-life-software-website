@@ -1,5 +1,5 @@
 import React from "react";
-import PlaceholderPoster from "../../assets/img/lit_life_roadmap_history_of_me-01.png";
+import PlaceholderPoster from "../../assets/img/History_Of_Me_Upcoming.png";
 export default function Announcements() {
   return (
     <>
