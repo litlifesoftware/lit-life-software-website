@@ -1,6 +1,6 @@
 ## LitLifeSoftware Website
 ## ![smiley icon](src/assets/img/smiley-icon-512px-1.png "Website Icon")
-![alt text](src/assets/screenshots/LitLife_Website_Screenshot.png "Lit UI Kit")
+## ![alt text](src/assets/screenshots/LitLife_Website_Screenshot.png "Website Screenshot")
 
 LitLifeSoftware's website is built with ReactJS and uses the Tailwind CSS framework for styling. Try out this website on [litlifesoftware.github.io](https://litlifesoftware.github.io)
 
