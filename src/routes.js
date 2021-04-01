@@ -3,37 +3,50 @@ import HomePage from "./pages/HomePage";
 import IridFilmClubPage from "./pages/IridFilmClubPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import RemainingLifetimePage from "./pages/RemainingLifetimePage";
+import HistoryOfMePage from "./pages/HistoryOfMePage/HistoryOfMePage";
 
 const Routes = [
   {
     path: "/",
     title: "Home",
     component: HomePage,
-    hidden: false,
+    showOnNavbar: true,
+    showOnFooter: false,
   },
   {
     path: "/irid-film-club",
     title: "Irid Film Club",
     component: IridFilmClubPage,
-    hidden: false,
+    showOnNavbar: false,
+    showOnFooter: false,
   },
   {
     path: "/remaining-lifetime",
     title: "Remaining Lifetime",
     component: RemainingLifetimePage,
-    hidden: false,
+    showOnNavbar: true,
+    showOnFooter: false,
+  },
+  {
+    path: "/history-of-me",
+    title: "History of Me",
+    component: HistoryOfMePage,
+    showOnNavbar: true,
+    showOnFooter: false,
   },
   {
     path: "/privacy",
     title: "Privacy",
     component: PrivacyPage,
-    hidden: true,
+    showOnNavbar: false,
+    showOnFooter: true,
   },
   {
     path: "/datenschutz",
     title: "Datenschutz",
     component: DatenschutzPage,
-    hidden: true,
+    showOnNavbar: false,
+    showOnFooter: true,
   },
 ];
 

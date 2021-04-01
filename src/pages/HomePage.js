@@ -3,6 +3,7 @@ import HomePageHero from "../components/Hero/HomePageHero";
 import AppPromo from "../components/AppPromoSection/AppPromoSection";
 import IridFilmClubPoster from "../assets/img/irid-film-club-logo-grey-background-1-918x918.png";
 import RemainingLifetimePoster from "../assets/img/remaining-lifetime-icon-1-696x696.png";
+import HistoryOfMePoster from "../assets/img/History_Of_Me_Website_Icon.png";
 import PlaceholderPoster from "../assets/img/placeholder-image-1-904x904.png";
 import AboutCards from "../components/AboutCardsSection/AboutCardsSection";
 import Announcements from "../components/AnnouncementsSection/AnnouncementsSection";
@@ -40,9 +41,10 @@ export default function HomePage() {
 
         <AppPromo
           title={"History Of Me"}
-          img={PlaceholderPoster}
-          description={"Your own personal digital diary."}
-          tags={["In Progress", "Coming this year"]}
+          img={HistoryOfMePoster}
+          description={"Your own personal diary."}
+          tags={["Offline", "Diary", "Public Beta", "Coming this year"]}
+          link="/history-of-me"
         />
 
         <LitUIKitSection />

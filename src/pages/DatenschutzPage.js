@@ -86,7 +86,7 @@ function DatenschutzPage(props) {
                 Bereich) mit Anschrift finden Sie unter:{" "}
                 <a
                   href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html"
-                  target="_blank"
+                  target="noreferrer _blank"
                   rel="nofollow noopener"
                 >
                   https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html
@@ -212,7 +212,7 @@ function DatenschutzPage(props) {
             <a
               href="https://www.activemind.de/datenschutz/datenschutzbeauftragter/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer noopener"
             >
               externe Datenschutzbeauftragte
             </a>{" "}

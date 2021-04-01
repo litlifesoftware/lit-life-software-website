@@ -67,7 +67,7 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               {props.routes.map((route, key) => {
-                if (!route.hidden) {
+                if (route.showOnNavbar) {
                   return (
                     <NavbarItem
                       key={key}
@@ -138,7 +138,7 @@ export default function Navbar(props) {
                 navbarTransparent={navbarTransparent}
                 bgColor={"bg-pink-400"}
                 bgColorHover={"bg-pink-600"}
-                label={"APPS"}
+                label={"Google Play"}
               />
 
               <NavbarButton

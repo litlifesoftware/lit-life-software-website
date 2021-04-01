@@ -6,7 +6,7 @@ function PrivacyPage() {
   /**
    * All applications mentioned on this website and available on the Play Store.
    */
-  const appNames = ["Irid Film Club", "Remaining Lifetime"];
+  const appNames = ["Irid Film Club", "Remaining Lifetime", "History of Me"];
 
   function displayAppList() {
     let appList = "";
@@ -36,10 +36,10 @@ function PrivacyPage() {
             <div>
               {" "}
               <p>
-                Michael Grigorenko built {displayAppList()} as{" "}
+                LitLifeSoftware built {displayAppList()} as{" "}
                 {appNames > 1 ? "a Free app" : "Free apps"}. This SERVICE is
-                provided by Michael Grigorenko at no cost and is intended for
-                use as is.
+                provided by LitLifeSoftware at no cost and is intended for use
+                as is.
               </p>
               <p>
                 This page is used to inform visitors regarding my policies with
@@ -91,6 +91,7 @@ function PrivacyPage() {
                     <a
                       href="https://www.google.com/policies/privacy/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Google Play Services
                     </a>
@@ -99,6 +100,7 @@ function PrivacyPage() {
                     <a
                       href="https://firebase.google.com/policies/analytics"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Google Analytics for Firebase
                     </a>
@@ -107,6 +109,7 @@ function PrivacyPage() {
                     <a
                       href="https://firebase.google.com/support/privacy/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Firebase Crashlytics
                     </a>
@@ -269,7 +272,11 @@ function PrivacyPage() {
         <div className="mr-auto ml-auto rounded-lg w-full md:w-6/12 px-4 py-4 font-medium text-gray-700">
           <p>
             This privacy policy page was created at
-            <a href="https://privacypolicytemplate.net" target="_blank">
+            <a
+              href="https://privacypolicytemplate.net"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               privacypolicytemplate.net{" "}
             </a>
@@ -277,6 +284,7 @@ function PrivacyPage() {
             <a
               href="https://app-privacy-policy-generator.firebaseapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               {" "}
               App Privacy Policy Generator

@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Routes from "./routes";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./util/ScrollToTop";
-import CookieConsentModal from "./components/CookieConsentModal/CookieConsentModal";
+import CookieConsentModal from "./components/Modals/CookieConsentModal";
 import SocialMediaLinks from "./social_media_links";
 
 /**

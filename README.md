@@ -1,6 +1,6 @@
-# LitLifeSoftware Website
-
-<img align="right" src="src/assets/img/smiley-icon-512px-1.png" height="128">
+## LitLifeSoftware Website
+## ![smiley icon](src/assets/img/smiley-icon-512px-1.png "Website Icon")
+![alt text](src/assets/screenshots/LitLife_Website_Screenshot.png "Lit UI Kit")
 
 LitLifeSoftware's website is built with ReactJS and uses the Tailwind CSS framework for styling. Try out this website on [litlifesoftware.github.io](https://litlifesoftware.github.io)
 
@@ -10,8 +10,8 @@ Created and maintained by [LitLifeSoftware](https://litlifesoftware.github.io/).
 
 ## Technologies
 
-- ### Javascript Framework: React by Facebook [Learn more](http://localhost:3000)
-- ### CSS Framework: Tailwind CSS by TailwindLabs [Learn more](https://github.com/tailwindlabs/tailwindcss)
+- ``Javascript Framework``: React by Facebook [Learn more](http://localhost:3000)
+- ``CSS Framework``: Tailwind CSS by TailwindLabs [Learn more](https://github.com/tailwindlabs/tailwindcss)
 
 ## Dependencies
 
